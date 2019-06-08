@@ -223,3 +223,30 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+/* About Page */
+
+.about {
+    border-bottom: 1px dashed black;
+}
+
+.about-main-content {
+    display: flex;
+    justify-content: 
+}
+
+.about-main-content div{
+    border-bottom: 1px dashed black;
+}
+
+.about-main-content button{
+    border-radius: 5px;
+    border-color: black;
+    font-size: 16px;
+    text-align: center;
+    padding: 1%;
+    text-decoration: none;
+    cursor: pointer;
+    background-color: inherit;
+
+}
