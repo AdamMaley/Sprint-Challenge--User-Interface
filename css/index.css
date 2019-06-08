@@ -69,6 +69,7 @@ p {
 .container {
     width: 800px;
     margin: 0 auto;
+    font-weight: bold;
 }
 
 /* Navigation */
@@ -76,14 +77,13 @@ p {
 header {
     display: flex;
     justify-content: space-around;
-    border: 1px solid black;
     margin-top: 3%;
     margin-bottom: 3%;
     width: 0 auto;
 }
 
 .lambda-logo {
-    
+    margin-right: 15%;
 }
 
 nav {
@@ -91,7 +91,6 @@ nav {
 	vertical-align: center;
 	margin-top: 35px;
     color: black;
-    border: 1px solid black;
 }
 
 header nav a {
@@ -99,7 +98,7 @@ header nav a {
 	font-size: 14px;
 	color: black;
     text-decoration: none;
-    border: 1px solid black;
+    
 }
 
 /* Top */
@@ -226,17 +225,28 @@ footer nav a {
 
 /* About Page */
 
+
+
 .about {
     border-bottom: 1px dashed black;
+    margin-top: 3%;
+}
+
+.about p {
+    margin-bottom: 2%;
 }
 
 .about-main-content {
     display: flex;
-    justify-content: 
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
 }
 
 .about-main-content div{
     border-bottom: 1px dashed black;
+    width: 46%;
+    margin: 2%;
 }
 
 .about-main-content button{
@@ -248,5 +258,11 @@ footer nav a {
     text-decoration: none;
     cursor: pointer;
     background-color: inherit;
+    margin-top: 4%;
+    margin-bottom:4%;
 
+}
+
+.bottom-about {
+    margin: 5% 0;
 }
